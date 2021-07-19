@@ -2,65 +2,89 @@
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable no-trailing-spaces */
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View,Image, FlatList, ActivityIndicator } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import { Neomorph } from 'react-native-neomorph-shadows';
-import { Button } from 'react-native-elements';
+import { usePokemonPagination } from '../hooks/usePokemonPagination';
+//import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { styles } from '../Theme/appTheme';
+//import { NeomorphTextBox } from '../components/NeomorphTextBox';
+//import { Neomorph } from 'react-native-neomorph-shadows';
+//import { Button } from 'react-native-elements';
+//import { FadeInImage } from '../components/FadeInImage';
+import { PokemonCard } from '../components/PokemonCard';
+
+
 
 
 export const HomeScreen = () => {
+
+    //const {top} = useSafeAreaInsets();
+    const {simplePokemonList,loadPokemons} = usePokemonPagination();
+    
+
     return (
 
         <LinearGradient
-        colors={['#b95722','#e0773e','#e03e5e','#f37790']} 
+        colors={['red','#a89f9f','#b53b3b']} 
         style={{...StyleSheet.absoluteFillObject }} 
-        start={{x:0.1,y:0.1}}
-        end={{x:0.8, y:0.8}}
+        start={{x:0.2,y:0.2}}
+        end={{x:0.9, y:0.9}}
         >
 
-        
-    
-    <View style={{alignItems:'center', paddingTop:0,alignContent:'center'}}>
+            <View>
+
+            <Image 
+            source={require('../assets/pokemon-logo-1.png')}
+                style={{
+                    height:150,
+                    width:250,
+                    marginLeft:-20,
+                    top:-10,
+                    marginBottom:-50
+                }}
+            />
+
+            </View>
+
+    <View style={{
+                ...styles.glabalMargin,
+                alignItems:'center',
+                
+            }}>
      
-         
+         <Image 
+            source={require('../assets/Pokeball_icon-icons.com_67533.png')}
+            style={styles.pokebolaBG}
+         />
 
-     <Neomorph
-             inner={true} // <- enable shadow inside of neomorph
-             swapShadows={true} // <- change zIndex of each shadow color
-             style={{
 
-                 shadowRadius: 5,
-                 borderRadius: 10,
-                 backgroundColor: '#b95722',
-                 width: 410,
-                 height: 60,
-                 flexDirection:'row',
-                 alignContent:'center',
-                 alignItems:'center',
-                 
-             }}
-             >
+         <FlatList 
+            data={simplePokemonList}
+            numColumns={2}
+            onEndReached={loadPokemons}
+            onEndReachedThreshold={0.4}
+            ListFooterComponent={(
+            <ActivityIndicator 
+                style={{height:100}}
+                size={20}
+                color="grey"
+                />)}
+            keyExtractor={(pokemon) => pokemon.id}
+            showsVerticalScrollIndicator={false}
+            renderItem={({
+            item
+            })=> ( <PokemonCard pokemon={item} />)
+            }
 
-         <Text style= {{
-         fontSize:30,
-         fontWeight:'bold',
-         color:'white',
-         textAlign:'center',
-         alignContent:'center',
-         paddingLeft:120,
-         }}
-         >Home</Text>
-            
-     </Neomorph>
-
-     <Button title="Hey!" />
-
+            />
+ 
         </View>
-
-
        
     </LinearGradient>
-
-       
+ 
     )
 }
+
+
+
+// style={{alignItems:'center', paddingTop:0,alignContent:'center'}}

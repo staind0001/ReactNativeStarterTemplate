@@ -12,6 +12,26 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FD520D28EE4F4FCE8E4D0AE4 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B46C4436C3A34DBF8F557D8D /* Pokemon Hollow.ttf */; };
+		29E73EEA2E8C46D486F1D5BB /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BF92396B8594B388C7376DF /* Pokemon Solid.ttf */; };
+		93CE9F20A0BD42D4B5EEAD64 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CF6F8F5A4E4B3F9D672B00 /* AntDesign.ttf */; };
+		AB84A1B26FA74140BBA483B9 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA9FE83CAB184A8D84EE456B /* Entypo.ttf */; };
+		AC3DB30408C74FC682F246E5 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D6A46AA964A98A564C2AE /* EvilIcons.ttf */; };
+		C7D709AE2DB3431DAB20919F /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 433605273784458DBC488761 /* Feather.ttf */; };
+		4F57080CCDB04EFE953B3509 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044042654E2D49E3BCCCF1A5 /* FontAwesome.ttf */; };
+		259578DBB34440389A675DDA /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5002715B2357420485F9FB9F /* FontAwesome5_Brands.ttf */; };
+		BC39B00A7D994D36A6D92EEF /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA45C852A43C4ED8A0B85D29 /* FontAwesome5_Regular.ttf */; };
+		BED673493D344847941154B3 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADD948D5B53744ADA22F4987 /* FontAwesome5_Solid.ttf */; };
+		9DB4B2E14FBA47EDA0290BC0 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBF6AD0670A4477AA36FDE8 /* Fontisto.ttf */; };
+		2EF3D699F86A4A898933898A /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77EEBC8EC11F42EBAD7FAB23 /* Foundation.ttf */; };
+		9D2DFD19D4244741A0C5FAC1 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DE775EBE16B4CD4A7B7B7E6 /* Ionicons.ttf */; };
+		13A90EA79395489FAF86DC4B /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1535DC5321D54A128CCF4C4F /* MaterialCommunityIcons.ttf */; };
+		99CD4B141849455FA609B476 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099B7E164BED4EF9B5138046 /* MaterialIcons.ttf */; };
+		F9213AC667D4465BA38C1F36 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD1B920992584DDF8A40746E /* Octicons.ttf */; };
+		28BA205900CC470F9FCF6F73 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69C54976F2D047D088BD9743 /* SimpleLineIcons.ttf */; };
+		20CC5F533A8A4C59A8BACCC4 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C86A3B9EA7A74E549E7CD196 /* Zocial.ttf */; };
+		50797BAD6BAF42F0A032458D /* PokemonHollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC99B81B2A340BC8EF00DA9 /* PokemonHollow.ttf */; };
+		B93FE2AB71034875A124ECF4 /* PokemonSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14DC85DFC09340E0885178E8 /* PokemonSolid.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,26 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Pokedex/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Pokedex/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B46C4436C3A34DBF8F557D8D /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; name = "Pokemon Hollow.ttf"; path = "../assets/fonts/Pokemon Hollow.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4BF92396B8594B388C7376DF /* Pokemon Solid.ttf */ = {isa = PBXFileReference; name = "Pokemon Solid.ttf"; path = "../assets/fonts/Pokemon Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B6CF6F8F5A4E4B3F9D672B00 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA9FE83CAB184A8D84EE456B /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F8D6A46AA964A98A564C2AE /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		433605273784458DBC488761 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		044042654E2D49E3BCCCF1A5 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5002715B2357420485F9FB9F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA45C852A43C4ED8A0B85D29 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ADD948D5B53744ADA22F4987 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDBF6AD0670A4477AA36FDE8 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		77EEBC8EC11F42EBAD7FAB23 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7DE775EBE16B4CD4A7B7B7E6 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1535DC5321D54A128CCF4C4F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		099B7E164BED4EF9B5138046 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD1B920992584DDF8A40746E /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69C54976F2D047D088BD9743 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C86A3B9EA7A74E549E7CD196 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6AC99B81B2A340BC8EF00DA9 /* PokemonHollow.ttf */ = {isa = PBXFileReference; name = "PokemonHollow.ttf"; path = "../assets/fonts/PokemonHollow.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14DC85DFC09340E0885178E8 /* PokemonSolid.ttf */ = {isa = PBXFileReference; name = "PokemonSolid.ttf"; path = "../assets/fonts/PokemonSolid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +149,7 @@
 				00E356EF1AD99517003FC87E /* PokedexTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				95761DAEB4FD4CC18718FAE1 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +164,34 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		95761DAEB4FD4CC18718FAE1 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				B46C4436C3A34DBF8F557D8D /* Pokemon Hollow.ttf */,
+				4BF92396B8594B388C7376DF /* Pokemon Solid.ttf */,
+				B6CF6F8F5A4E4B3F9D672B00 /* AntDesign.ttf */,
+				DA9FE83CAB184A8D84EE456B /* Entypo.ttf */,
+				6F8D6A46AA964A98A564C2AE /* EvilIcons.ttf */,
+				433605273784458DBC488761 /* Feather.ttf */,
+				044042654E2D49E3BCCCF1A5 /* FontAwesome.ttf */,
+				5002715B2357420485F9FB9F /* FontAwesome5_Brands.ttf */,
+				FA45C852A43C4ED8A0B85D29 /* FontAwesome5_Regular.ttf */,
+				ADD948D5B53744ADA22F4987 /* FontAwesome5_Solid.ttf */,
+				CDBF6AD0670A4477AA36FDE8 /* Fontisto.ttf */,
+				77EEBC8EC11F42EBAD7FAB23 /* Foundation.ttf */,
+				7DE775EBE16B4CD4A7B7B7E6 /* Ionicons.ttf */,
+				1535DC5321D54A128CCF4C4F /* MaterialCommunityIcons.ttf */,
+				099B7E164BED4EF9B5138046 /* MaterialIcons.ttf */,
+				FD1B920992584DDF8A40746E /* Octicons.ttf */,
+				69C54976F2D047D088BD9743 /* SimpleLineIcons.ttf */,
+				C86A3B9EA7A74E549E7CD196 /* Zocial.ttf */,
+				6AC99B81B2A340BC8EF00DA9 /* PokemonHollow.ttf */,
+				14DC85DFC09340E0885178E8 /* PokemonSolid.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +283,26 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FD520D28EE4F4FCE8E4D0AE4 /* Pokemon Hollow.ttf in Resources */,
+				29E73EEA2E8C46D486F1D5BB /* Pokemon Solid.ttf in Resources */,
+				93CE9F20A0BD42D4B5EEAD64 /* AntDesign.ttf in Resources */,
+				AB84A1B26FA74140BBA483B9 /* Entypo.ttf in Resources */,
+				AC3DB30408C74FC682F246E5 /* EvilIcons.ttf in Resources */,
+				C7D709AE2DB3431DAB20919F /* Feather.ttf in Resources */,
+				4F57080CCDB04EFE953B3509 /* FontAwesome.ttf in Resources */,
+				259578DBB34440389A675DDA /* FontAwesome5_Brands.ttf in Resources */,
+				BC39B00A7D994D36A6D92EEF /* FontAwesome5_Regular.ttf in Resources */,
+				BED673493D344847941154B3 /* FontAwesome5_Solid.ttf in Resources */,
+				9DB4B2E14FBA47EDA0290BC0 /* Fontisto.ttf in Resources */,
+				2EF3D699F86A4A898933898A /* Foundation.ttf in Resources */,
+				9D2DFD19D4244741A0C5FAC1 /* Ionicons.ttf in Resources */,
+				13A90EA79395489FAF86DC4B /* MaterialCommunityIcons.ttf in Resources */,
+				99CD4B141849455FA609B476 /* MaterialIcons.ttf in Resources */,
+				F9213AC667D4465BA38C1F36 /* Octicons.ttf in Resources */,
+				28BA205900CC470F9FCF6F73 /* SimpleLineIcons.ttf in Resources */,
+				20CC5F533A8A4C59A8BACCC4 /* Zocial.ttf in Resources */,
+				50797BAD6BAF42F0A032458D /* PokemonHollow.ttf in Resources */,
+				B93FE2AB71034875A124ECF4 /* PokemonSolid.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
